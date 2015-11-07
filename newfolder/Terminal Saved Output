@@ -1,0 +1,148 @@
+Last login: Sat Nov  7 11:02:38 on console
+web105025:~ ArthurFabre$ ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures
+web105025:~ ArthurFabre$ cd documents
+web105025:documents ArthurFabre$ ls
+Arthur Doc				McGill
+Arthur's mouse settings.RazerSynapse	Music
+web105025:documents ArthurFabre$ mkdir testforig
+web105025:documents ArthurFabre$ ls
+Arthur Doc				McGill
+Arthur's mouse settings.RazerSynapse	Music
+web105025:documents ArthurFabre$ cd..
+-bash: cd..: command not found
+web105025:documents ArthurFabre$ ls
+Arthur Doc				McGill
+Arthur's mouse settings.RazerSynapse	Music
+web105025:documents ArthurFabre$ pwd
+/Users/ArthurFabre/documents
+web105025:documents ArthurFabre$ ls
+Arthur Doc				McGill
+Arthur's mouse settings.RazerSynapse	Music
+web105025:documents ArthurFabre$ cd arthur doc
+-bash: cd: arthur: No such file or directory
+web105025:documents ArthurFabre$ ls
+Arthur Doc				McGill
+Arthur's mouse settings.RazerSynapse	Music
+web105025:documents ArthurFabre$ cd Arthur Doc
+-bash: cd: Arthur: No such file or directory
+web105025:documents ArthurFabre$ ls
+Arthur Doc				McGill
+Arthur's mouse settings.RazerSynapse	Music
+web105025:documents ArthurFabre$ cd McGill
+web105025:McGill ArthurFabre$ ls
+Administrative stuff	Power engineering	Year 1			Year 3
+Clubs			Transcrips		Year 2			Year 4
+web105025:McGill ArthurFabre$ pwd
+/Users/ArthurFabre/documents/McGill
+web105025:McGill ArthurFabre$ cd documents
+-bash: cd: documents: No such file or directory
+web105025:McGill ArthurFabre$ cd .
+web105025:McGill ArthurFabre$ ls
+Administrative stuff	Power engineering	Year 1			Year 3
+Clubs			Transcrips		Year 2			Year 4
+web105025:McGill ArthurFabre$ pwd
+/Users/ArthurFabre/documents/McGill
+web105025:McGill ArthurFabre$ home
+-bash: home: command not found
+web105025:McGill ArthurFabre$ 
+web105025:McGill ArthurFabre$ ls
+Administrative stuff	Power engineering	Year 1			Year 3
+Clubs			Transcrips		Year 2			Year 4
+web105025:McGill ArthurFabre$ cd ..\
+> 
+web105025:documents ArthurFabre$ ls
+Arthur Doc				McGill
+Arthur's mouse settings.RazerSynapse	Music
+web105025:documents ArthurFabre$ cd Arthur Doc
+-bash: cd: Arthur: No such file or directory
+web105025:documents ArthurFabre$ cd arthur doc
+-bash: cd: arthur: No such file or directory
+web105025:documents ArthurFabre$ mkdir test
+web105025:documents ArthurFabre$ ls
+Arthur Doc				Music
+Arthur's mouse settings.RazerSynapse	test
+McGill
+web105025:documents ArthurFabre$ cd test
+web105025:test ArthurFabre$ ls
+web105025:test ArthurFabre$ mkdir new folder
+web105025:test ArthurFabre$ git init
+xcode-select: note: no developer tools were found at '/Applications/Xcode.app', requesting install. Choose an option in the dialog to download the command line developer tools.
+web105025:test ArthurFabre$ git init
+xcode-select: note: no developer tools were found at '/Applications/Xcode.app', requesting install. Choose an option in the dialog to download the command line developer tools.
+web105025:test ArthurFabre$ git init
+Initialized empty Git repository in /Users/ArthurFabre/Documents/test/.git/
+web105025:test ArthurFabre$ git status
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+web105025:test ArthurFabre$ pwd
+/Users/ArthurFabre/documents/test
+web105025:test ArthurFabre$ ls
+folder	new
+web105025:test ArthurFabre$ mkdir newfolder
+web105025:test ArthurFabre$ cd newfolder
+web105025:newfolder ArthurFabre$ pwd
+/Users/ArthurFabre/documents/test/newfolder
+web105025:newfolder ArthurFabre$ git status
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+web105025:newfolder ArthurFabre$ gedit
+-bash: gedit: command not found
+web105025:newfolder ArthurFabre$ vim
+
+here is some new file
+
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+~                                                                                                                    
+-- INSERT --
